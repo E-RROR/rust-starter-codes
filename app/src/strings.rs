@@ -20,6 +20,9 @@ pub fn run() {
     // Replace
     println!("Replaced : {}", name.replace("Hi","Hello"));
 
+    // Test Asserts
+    assert_eq!(11, name.len());
+
     // Loop over string white spaces
     for whtspace in name.split_whitespace(){
         println!("{}", whtspace);
